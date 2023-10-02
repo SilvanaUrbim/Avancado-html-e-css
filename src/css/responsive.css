@@ -1,0 +1,227 @@
+
+@media (max-width:1024px){
+    
+    body{
+        background-image: url('../images/bg-desktop.svg');
+        background-repeat: no-repeat;
+        padding: 2.0rem;
+        background-size: 100%;
+    }
+
+      .logo img{
+        width: 180px;
+        margin-left: -15px;
+        margin-top: -35px;
+      }
+
+        .container h1{
+            font-size: 28px;
+        }
+
+        .sessao img{
+            margin-left: 35px;
+            margin-top: -10px;
+            width: 600px;
+            height: 400px;
+        }
+
+        .sessao  p{
+            padding-left: 1.0rem;
+            width: 100%;
+        }
+
+        .sessao #registro{
+        padding: 1.0rem 5.0rem;
+        }
+
+        .footer  .navegacao .rodape{ 
+            margin: 4.0rem;
+            gap: 0.5rem;
+            margin: 15px 0 0 0;
+            
+          }
+    }
+
+
+    
+@media (max-width:768px){
+    body{
+        background-image: url('../images/bg-mobile.svg');
+        background-repeat: no-repeat;
+        padding: 2.0rem;
+        background-size: 100%;
+    }
+
+    .logo{
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .container h1{
+
+        font-size: 32px;
+    }
+
+
+    .sessao{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .navegacao .rodape{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (max-width:576px){
+    body{
+        background-image: url('../images/bg-mobile.svg');
+        background-repeat: no-repeat;
+        padding: 2.0rem;
+        background-size: 100%;
+    }
+
+    .logo{
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .logo img{
+        width: 180px;
+        margin-left: -15px;
+        margin-top: -35px;
+    }
+
+    .container h1{
+
+        font-size: 40px;
+    }
+
+    .sessao img{
+        margin-left: 35px;
+        width: 500px;
+        height: 400px;
+    }
+
+    .sessao{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .navegacao .rodape{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (max-width:420px){
+    body{
+        background-image: url('../images/bg-mobile.svg');
+        background-repeat: no-repeat;
+        padding: 2.0rem;
+        background-size: 100%;
+    }
+
+    .logo{
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+
+    .logo img{
+        width: 180px;
+        margin-left: -15px;
+        margin-top: -35px;
+    }
+
+    .container h1{
+        font-size: 28px;
+    }
+
+    .sessao{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .sessao img{
+        margin-left: 35px;
+        margin-top: -10px;
+        width: 350px;
+        height: 240px;
+    }
+
+    .navegacao .rodape{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (max-width:375px){
+    body{
+        background-image: url('../images/bg-mobile.svg');
+        background-repeat: no-repeat;
+        padding: 2.0rem;
+        background-size: 100%;
+    }
+
+    .logo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .logo img{
+        width: 180px;
+        margin-left: -5px;
+        margin-top: -55px;
+    }
+
+    .sessao img{
+        margin-left: 46px;
+        margin-top: -12px;
+        width: 300px;
+        height: 210px;
+    }
+
+    .container h1{
+        font-size: 26px;
+        margin-left: -15px;
+        position: relative;
+    }
+    .container p{
+
+        margin-right:1rem ;
+        display: inline-block;
+        margin-top: -15px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sessao{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    #registro{
+
+        width: 180px;
+        margin-bottom: 15px;
+    }
+
+    .navegacao .rodape{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    a{
+        padding: 1.0rem;
+    }
+
+    .footer .navegacao{
+
+        margin-left: -25px;
+    }
+
+}

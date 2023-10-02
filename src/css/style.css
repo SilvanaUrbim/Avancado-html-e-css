@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url('../images/bg-desktop.svg');
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+}
+
+.logo{
+    padding: 5.0rem;;
+}
+
+.imagem{
+    display: flex;
+    margin: 5.0rem;
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+.sessao{
+    display: flex;
+    align-items: center;
+}
+
+.sessao .container{
+    margin-top: -55px;
+}
+
+.sessao h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #FFF;
+    font-size: 4.5rem;
+}
+
+.sessao p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 1.6rem;
+    padding: 2.0rem;
+}
+
+.sessao #registro{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF;
+    color: hsl(257, 40%, 49%);
+    font-size: 1.6rem;
+    padding: 1.0rem 5.0rem;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    border-color: transparent;
+    margin-left: 25px;
+}
+
+.navegacao .rodape{
+    display: flex;
+    justify-content: flex-end;
+    margin: 6.0rem;
+    gap: 1.0rem;
+}
+
+
+.navegacao ul li{
+    border: 1.5px solid #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    align-items: center;
+}
+
+a{
+    font-size: 2.0rem;
+    color: #FFF;
+    padding-left: 0.8rem;
+}
+
+
+
+
+
